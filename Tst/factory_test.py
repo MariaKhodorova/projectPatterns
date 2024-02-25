@@ -16,7 +16,7 @@ class factory_test(unittest.TestCase):
         assert unit is not None
 
     def test_check_nomenclature_group(self):
-        result = start_factory.create_nomenclature()
+        result = start_factory.create_nomenclature();
 
         print(result)
         assert len(result) > 0
